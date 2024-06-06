@@ -1,4 +1,6 @@
 ```
+$CHPL_BIN --library --dynamic --debug --library-cmakelists udf2.chpl
+
 mkdir build
 cd build
 cmake -DCMAKE_BUILD_TYPE=Debug ..
